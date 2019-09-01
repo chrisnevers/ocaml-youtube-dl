@@ -1,9 +1,11 @@
 open Alcotest
 open Youtube_dl
 
-let get_string_test () =
-  (check (string)) "get_string" "Hello" (get_string ())
+let url = "https://www.youtube.com/watch?v=pK94lt1VUig"
+
+let download_url_test () =
+  (check (int)) "download_url" 0 (download_url url)
 
 let tests = [
-  "get_string", `Quick, get_string_test
+  "download_url", `Quick, download_url_test
 ]
