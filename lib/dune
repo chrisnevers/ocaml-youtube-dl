@@ -1,0 +1,4 @@
+(library
+ (name youtube_dl)
+ (public_name youtube_dl)
+ (synopsis "A wrapper for the youtube-dl command line tool"))

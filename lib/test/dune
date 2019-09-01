@@ -1,0 +1,6 @@
+(library
+  (name test_youtube_dl)
+  (libraries
+    alcotest
+    youtube_dl)
+  (synopsis "Tests for youtube_dl"))
