@@ -16,3 +16,6 @@ Use the following command to run the unit tests:
 **The title of my downloads are just '_'**
 
 Updating `youtube-dl` should fix this issue. Run: `youtube-dl -U`
+
+# Contributing
+All contributions to `ocaml-youtube-dl` are appreciated! ❤️
