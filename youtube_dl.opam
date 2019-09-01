@@ -2,6 +2,9 @@ opam-version: "2.0"
 version: "1.0"
 authors: "Chris Nevers <christophernevers96@gmail.com>"
 maintainer: "Chris Nevers <christophernevers96@gmail.com>"
+homepage: "https://github.com/chrisnevers/youtube-dl"
+bug-reports: "https://github.com/chrisnevers/youtube-dl/issues"
+dev-repo: "git://github.com/chrisnevers/youtube-dl.git"
 synopsis: "A wrapper for the youtube-dl command line tool"
 build: [
   ["dune" "subst"] {pinned}
